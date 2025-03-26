@@ -1,0 +1,22 @@
+body { background-color:#273238;
+    margin: 10px;
+
+    h1{color:#698593; 
+        background-color: #FFFFFF;
+        font-family: impact,charcoal,sans-serif;
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+        }
+    }
+    p{color:aliceblue;    text-align: justify;
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    
+    }
+
+    h2{ text-transform: uppercase;
+        font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+        font-size: 25px;
+       font-weight: bold;
+    
+    }

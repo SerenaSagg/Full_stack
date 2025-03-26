@@ -1,0 +1,32 @@
+#aspiradora{    
+    border : 5px solid #E6CBBF;
+    margin-left: 30px;
+
+    } 
+
+#celular{    
+        border : 5px solid #A1C1CB;
+        margin-left: 30px;
+
+        }  
+
+#consola{    
+            border : 5px solid #BCBDBF;
+            margin-left: 30px; 
+        } 
+
+            
+#hometheaters{ 
+                border : 5px solid #8D94A1;
+                margin-left: 30px;
+                
+                } 
+
+#televisor{    
+            border : 5px solid #B2B2AA;
+            margin-left: 30px;
+            } 
+
+.foto{
+        width: 20%;
+    }

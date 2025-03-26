@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Cine Clásico</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="shortcut icon" href="./Img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img class="titulo" src="./Img/Titulo.png" alt="<< Festival de Cine Clasico >>"></a>
+        
+        <nav class="menu" >
+            <a href="./index.html">CARTELERA </a>
+            <a href="./nosotros.html"> CANDY </a>
+            <a href="./alta.html"> ALTA DE PRODUCTOS </a>
+            <a href="./contacto.html"> CONTACTO </a>
+            <div class="buscador"><input type="text" placeholder="Buscar"  style="margin-top: 2em; padding-left: 1.5em; background-image: url(./Img/lupita.png); background-size: 20px; background-repeat: no-repeat;background-position: left;"></div>
+        </nav>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="hamburguesa">☰</label>
+
+
+        <nav class="menu_movil">
+        <ul>
+    <li><a href="./index.html"> CARTELERA </a></li>
+    <li><a href="./nosotros.html"> CANDY </a></li>
+    <li><a href="./alta.html"> ALTA DE PRODUCTOS </a></li>
+    <li><a href="./contacto.html"> CONTACTO </a></li>
+    <li><div class="buscador"><input type="text" placeholder="Buscar"  style=" padding-left: 1.5em; background-image: url(./Img/lupita.png); background-size: 20px; background-repeat: no-repeat;background-position: left;"></div></li>
+    
+        </ul>
+        </nav>
+
+
+    </header>
+    <h2>ESPERAMOS TU CONSULTA</h2>
+    <main>
+    <h3>ENVIANOS TUS DUDAS Y SUGERENCIAS</h3>
+        <br>
+        <form class="consulta">
+        Nombre <span>*</span> <input type="text" name="Nombre" placeholder="Nombre" required>
+        Apellido <span>*</span><input type="text" name="Apellido" placeholder="Apellido" required><br><br>
+        Email <span>*</span><input type="email" placeholder="info@dominio.com" required><br><br>
+        Telefono <input type="number" placeholder="11 22334455"><br><br>
+
+        Motivo de consulta 
+        <select>
+            <option value="0"> Seleccionar </option>
+            <option value="1">Devolución de compra</option>
+            <option value="2">Cartelera y precios</option>
+            <option value="3">Reclamos</option>
+            <option value="4">Otra tema</option>
+
+        </select><br><br>
+    
+        Mensaje <textarea cols="40", rows="5"></textarea><br><br>
+        <button>ENVIAR</button><br><br>
+
+    </form>
+    </main>
+    <footer>
+        <h4>Festival de cine Clásicos - Buenos Aires, Argentina.</h4>
+
+    </footer>
+</body>
+</html>

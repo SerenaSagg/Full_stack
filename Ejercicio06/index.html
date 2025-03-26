@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./estilos.css"> -->
+    <link rel="stylesheet" href="./estilos-retro.css">
+</head>
+<body>
+    <div class="contenedor">
+    <header>
+        <section class="titulo">Vení al Gym!💪</section>
+    </header>
+    <main>
+        <div>
+            <form>
+            <fieldset>
+                <legend>🙋‍♂️DATOS PERSONALES👀</legend>
+                <div class="formulario">
+                <label>Nombre: <sup>*</sup></label><input type="text" name="Nombre" required>
+                <label>Apellido: <sup>*</sup></label><input type="text" name="Apellido" required>
+                <label>Documento: <sup>*</sup></label><input type="text" required>
+                <label>Nacionalidad: <sup>*</sup></label>
+                <select required>
+                    <option value="">- Seleccionar -</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasileña">Brasileña</option>
+                    <option value="Uruguaya">Uruguaya</option>
+                    <option value="Otra">Otra</option>
+                </select><br>
+                Contanos un poco de vos... 
+                <textarea cols="20"></textarea>
+                <label>Sexo: <sup>*</sup></label>
+                <div class="sexo">
+                <input type="radio" name="sexo" value="Femino" required>Femenino
+                <input type="radio" name="sexo" value="Masculino">Masculino
+                <input type="radio" name="sexo" value="Otro">Otro
+                </div>
+            </div>
+            </fieldset>
+
+            <div class="divisor"></div>
+
+            <fieldset>
+                <legend>📱DATOS DE CONTACTO📧</legend>
+                <div class="formulario">
+                Teléfono: 
+                <input type="text" placeholder="Código de área y número">
+                <label>Dirección de correo electronico: <sup>*</sup></label>
+                <input type="email" required placeholder="Ej: mail@gmail.com">
+                </div>
+            </fieldset>
+
+            <div class="divisor"></div>
+
+            <fieldset>
+                <legend>🚴‍♂️ACTIVIDADES🤸‍♂️</legend>
+                <div class="formulario">
+                    <section class="actividades">
+                Por favor, indicá cuáles actividades te interesan. <br>
+                Sede Palermo: <br>
+                <div class="palermo">
+                <input type="checkbox" name="actPalermo">Básquet
+                <input type="checkbox" name="actPalermo">Boxeo
+                <input type="checkbox" name="actPalermo">Fútbol
+                <input type="checkbox" name="actPalermo">Tenis <br>
+                </div>
+                Sede Rosario: <br>
+                <div class="rosario">
+                <input type="checkbox" name="actRosario">Básquet
+                <input type="checkbox" name="actRosario">Fútbol
+                <input type="checkbox" name="actRosario">Rugby
+                <input type="checkbox" name="actRosario">Voley <br>
+                </div>
+                </section>
+            </div>
+            </fieldset>
+            <input type="checkbox" required>Acepto las condiciones <sup>*</sup><br>
+            <input type="checkbox" checked>Deseo recibir novedades <br><br>
+            <span>*</span>: campo obligatorio. <br><br>
+
+            <div class="boton">
+
+            <button>Iniciar afiliación</button>
+            <a href="./index.html" ><button>Restablecer</button></a>
+
+            </div>
+        </form>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</div>
+</body>
+</html>

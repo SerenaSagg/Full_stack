@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #EDECE9;
+    color: #775548;
+}
+
+nav{
+    font-size: 1.15em;
+}
+
+section{
+    font-size: 80%;
+}
+
+h1{
+    color: #775548;
+    font-size: 2em;
+}
+
+h2{
+    background-color: #775548;
+    color: #E1D4CF;
+    font-size: 1.1em;
+}
+
+a:link{
+    color: #EF6D24;
+    font-weight: bold;
+}
+
+.Datos{
+    color: #D8B03B;
+}
+
+.link_1{
+    color: #5AC1D8;
+}
+
+.link_2{
+    color: #EF4B51;
+}
+
+.link_3{
+    color: #EE6D24;
+}

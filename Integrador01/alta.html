@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Cine Clásico</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="shortcut icon" href="./Img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img class="titulo" src="./Img/Titulo.png" alt="<< Festival de Cine Clasico >>"></a>
+        
+        <nav class="menu" >
+            <a href="./index.html">CARTELERA </a>
+            <a href="./nosotros.html"> CANDY </a>
+            <a href="./alta.html"> ALTA DE PRODUCTOS </a>
+            <a href="./contacto.html"> CONTACTO </a>
+            <div class="buscador"><input type="text" placeholder="Buscar"  style="margin-top: 2em; padding-left: 1.5em; background-image: url(./Img/lupita.png); background-size: 20px; background-repeat: no-repeat;background-position: left;"></div>
+        </nav>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="hamburguesa">☰</label>
+
+
+        <nav class="menu_movil">
+        <ul>
+    <li><a href="./index.html"> CARTELERA </a></li>
+    <li><a href="./nosotros.html"> CANDY </a></li>
+    <li><a href="./alta.html"> ALTA DE PRODUCTOS </a></li>
+    <li><a href="./contacto.html"> CONTACTO </a></li>
+    <li><div class="buscador"><input type="text" placeholder="Buscar"  style=" padding-left: 1.5em; background-image: url(./Img/lupita.png); background-size: 20px; background-repeat: no-repeat;background-position: left;"></div></li>
+    
+        </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <h2>PUBLICAR NUEVA PELICULA</h2><br>
+        <div class="contenedor">
+
+        <form action="codigo.php" method="post">
+            <fieldset>
+            <legend>INFORMACION PRINCIPAL</legend>
+            
+            Titulo <input type="text" name="titulo" required > <span>*</span><br><br>
+            Género
+            <select> 
+                <option value="0"> Seleccionar </option>
+                <option value="1">Comedia</option>
+                <option value="2">Drama</option>
+                <option value="3">Terror</option>
+                <option value="4">Ciencia Ficción</option>
+                <option value="5">Acción</option>
+                <option value="6">Fantasía</option>
+                <option value="7">Romance</option>
+                <option value="8">Documental</option>
+                <option value="9">Suspenso</option>
+                <option value="10">Musical</option>
+                <option value="11">Animación</option>
+                <option value="12">Crimen</option>
+            </select><span>  *</span>
+            <br><br>
+            
+            Descripción <br><br><textarea cols="40" rows="5" maxlength="350" placeholder="Máximo 350 caracteres." required></textarea><br><br>
+            Duración <input type="text" placeholder=" 00hs 00min" required><span>  *</span><br><br>
+            Clasificacion por edad<span>  *</span> <br><br>
+            <input type="radio" name="edad" checked required> ATP <br>
+            <input type="radio" name="edad"> +13 <br>
+            <input type="radio" name="edad"> +16 <br>
+            <input type="radio" name="edad"> +18 <br><br>
+
+            Formato <span>  *</span> 
+            <input type="radio" required>2D Subtitulada
+            <input type="radio">2D Doblada <br><br>
+            Adjuntar poster<span>  *</span> <br><input type="file" required><br><br>
+
+            Adjuntar trailer <br>
+            <input type="file">
+
+            <br><br>
+            <button>PUBLICAR</button>
+        </form>
+        <br><br>
+
+        </div>
+    </fieldset>
+        <br><br>
+
+    </main>
+    <footer>
+        <h4>Festival de cine Clásicos - Buenos Aires, Argentina.</h4>
+
+    </footer>
+</body>
+</html>

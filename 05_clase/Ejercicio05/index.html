@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio05</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        ** EJERCICIO 1: **
+        <script>
+            var cantidadDeGatos=window.prompt('Ingresar una cantidad de gatos');
+            var cantidadDePasos = window.prompt('Ingresar cantidad de pasos');
+            var i, cantidad;
+          
+            for(i=1;i<=cantidadDeGatos;i++){
+                document.write(' <br> Gato # '+i+':' );
+                if(i%3==1){
+                    document.write('😺');
+                }
+                else if(i%3==2){
+                    document.write('😸');
+                }
+                else if(i%3==0){
+                    document.write('😹');
+                }
+            }
+
+            cantidad=cantidadDePasos;
+            document.write('<br><br>** EJERCICIO 2: **');
+            for(i=1;i<=cantidadDeGatos;i++){
+                document.write(' <br> Gato # '+i+': 🐈 ' );
+                while(cantidad>0){
+                    document.write('🐾');
+                    cantidad=cantidad-1;
+                }
+                cantidad=cantidadDePasos;
+            }
+
+            document.write('<br><br>** EJERCICIO 3: **');
+            for(i=1;i<=cantidadDeGatos;i++){
+                cantidad=cantidadDePasos;
+                document.write(' <br> Gato # '+i+':' );
+                if(i%2==0){
+                    document.write('🐈‍⬛');
+                }
+                else{
+                    document.write("🐈");
+                }
+                while(cantidad>0){
+                    document.write('🐾');
+                    cantidad=cantidad-1;
+                }
+            }
+
+        </script>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
